@@ -1,5 +1,8 @@
 [build]
-  publish = "dist"
+  # Netlify Functions不需要一个构建目录，这个设置是错误的。
+  # 我们可以直接删除它，或者将其设置为一个不存在的目录，并忽略构建命令。
+  publish = "functions"
+  command = "npm install"
 
 [functions]
   directory = "functions"
