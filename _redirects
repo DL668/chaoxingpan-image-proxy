@@ -1,1 +1,1 @@
-/image/* /.netlify/functions/proxy?url=:splat 200
+/image/* /.netlify/functions/proxy?url=:splat 200!
