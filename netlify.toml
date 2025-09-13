@@ -6,3 +6,9 @@
 
 [functions]
   directory = "functions"
+
+[[redirects]]
+  from = "/image/*"
+  to = "/.netlify/functions/proxy"
+  status = 200
+  force = true
