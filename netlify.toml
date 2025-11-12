@@ -6,6 +6,7 @@
 
 [functions]
   directory = "functions"
+  timeout = 30
 
 [[redirects]]
   from = "/image/*"
